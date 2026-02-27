@@ -1,0 +1,119 @@
+## Episode 01 — Inception (Pages 1–10)
+
+### CDN (Content Delivery Network)
+
+* A CDN is a distributed network of servers that delivers content faster to users.
+* Improves performance, scalability, and availability of web applications.
+* Used to add React to projects via script links in HTML.
+* Benefits: faster loading, lower latency, better traffic handling, improved security. 
+
+---
+
+### CORS & Crossorigin
+
+* CORS allows resources to be requested from a different domain.
+* `crossorigin` attribute helps load external scripts (like React CDN) securely.
+
+---
+
+### React Files
+
+* **react.development.js** → Core React library (for development).
+* **react-dom.development.js** → Connects React with browser DOM.
+
+---
+
+### First React Program Concepts
+
+* DOM manipulation is expensive for browsers.
+* React elements are JavaScript objects with `props`.
+* `render()` converts React objects into HTML and inserts into DOM.
+
+---
+
+### React Rendering Behavior
+
+* If HTML already exists inside root div, React replaces it after rendering.
+
+---
+
+### Emmet
+
+* Editor tool that expands shortcuts into full code quickly.
+
+---
+
+### Library vs Framework
+
+**Library**
+
+* Provides functions you call.
+* You control the flow.
+
+**Framework**
+
+* Provides structure and controls the flow.
+* You fill in the logic.
+
+---
+
+### Why React is Called React
+
+* React updates UI efficiently without full page reload.
+* Uses **Virtual DOM** to “react” to changes quickly.
+
+---
+
+### React vs ReactDOM
+
+* React → UI logic and components.
+* ReactDOM → Rendering UI in the browser.
+
+---
+
+### Real DOM vs Virtual DOM
+
+**Real DOM**
+
+* Actual webpage structure.
+* Full updates are costly.
+
+**Virtual DOM**
+
+* Lightweight copy in memory.
+* React compares changes (diffing) and updates only necessary parts.
+* Process called **Reconciliation**.
+
+---
+
+### When Virtual DOM Syncs with Real DOM
+
+Steps:
+
+1. State/props change.
+2. Re-render occurs.
+3. Diffing compares old vs new virtual DOM.
+4. Batch updates applied.
+5. Commit phase updates real DOM.
+
+---
+
+### Development vs Production React
+
+* **Development build** → debugging, warnings, errors.
+* **Production build** → optimized, faster, smaller size.
+
+---
+
+### Async vs Defer 
+
+**Async**
+
+* Runs as soon as downloaded.
+* Order not guaranteed.
+
+**Defer**
+
+* Runs after HTML parsing.
+* Maintains script order.
+* Better when scripts depend on DOM.
