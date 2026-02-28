@@ -1,0 +1,129 @@
+* NPM is a package manager and the largest software registry for JavaScript.
+* It consists of three components: website, command line interface (CLI), and registry.
+* It is used to install, share, manage, and update project dependencies.
+* It allows running packages without installing them globally using npx.
+* It helps manage multiple versions and private packages within organizations.
+
+package.json
+
+* package.json is the manifest file of a Node.js project containing metadata.
+* It includes project name, version, description, author, license, and dependencies.
+* It defines scripts, entry points, and repository links.
+* It acts as a configuration file for npm.
+
+Bundler
+
+* A bundler combines multiple JavaScript files and dependencies into a single file for browsers.
+* It prepares production-ready code.
+* Examples include Browserify, ESBuild, Parcel, Rollup, and Webpack.
+* Create React App internally uses Webpack.
+
+Types of Dependencies
+
+* Dev dependencies are required only during development.
+* Normal dependencies are required for production runtime.
+
+Caret (^) and Tilde (~) in package.json
+
+* Tilde (~) updates only patch versions while locking major and minor versions.
+* Caret (^) updates minor and patch versions automatically.
+* Caret is the default behavior used by npm.
+
+package-lock.json
+
+* It stores the exact versions of installed dependencies.
+* Ensures consistency across different systems and environments.
+* Prevents compatibility issues during installations.
+* Important for collaborative projects.
+
+Transitive Dependencies
+
+* Dependencies that have their own dependencies are called transitive dependencies.
+* Each dependency inside node_modules has its own package.json file.
+
+Parcel Bundler
+
+* Parcel is a web application bundler focused on developer experience.
+* Running npx parcel index.html starts a development server.
+* It watches files and automatically reloads the browser on changes.
+* Running npx parcel build index.html creates an optimized production build.
+* Production build includes minification and asset optimization.
+
+NPM  (Functions)
+
+* Installing packages locally or globally.
+* Managing dependencies through package.json.
+* Running scripts using npm run command.
+* Publishing packages to npm registry.
+
+NPX 
+
+* NPX is a package runner that comes with npm.
+* It allows executing packages without installing them globally.
+* It can run locally installed binaries directly.
+* It can download and execute packages temporarily.
+* Helps avoid global installations for one-time usage.
+
+Difference Between NPM and NPX
+
+* NPM is used to install packages.
+* NPX is used to execute packages.
+* NPX avoids global installations.
+* NPX is useful for temporary commands.
+
+Why CDN Should Not Be Used for React in Projects
+
+* Requires internet connection to load React.
+* Version upgrades require manual link changes.
+* Using npm installs React locally and avoids dependency issues.
+* Local installation improves reliability.
+
+Browser Scripts Cannot Have Imports/Exports
+
+* Browser treats normal script tags as non-module scripts.
+* Import statements cause errors unless script type is module.
+* Adding type="module" allows import/export usage.
+
+HMR (Hot Module Replacement)
+
+* HMR updates modules without full page reload.
+* It preserves application state during development.
+* It improves development speed by updating only changed files.
+* Process involves runtime checking, downloading updates, and applying them.
+
+
+Parcel Performance and Cache
+
+* Parcel creates a .parcel-cache folder for caching builds.
+* Subsequent builds are faster due to caching.
+
+Other Features of Parcel
+
+* File compression
+* Bundling
+* Image optimization
+* Minification
+* Consistent hashing
+* Differential bundling
+* Diagnostics support
+
+Removing main from package.json
+
+* main property specifies entry point for npm.
+* Parcel already receives entry point via command.
+* Conflict occurs if both are present.
+* Therefore main should be removed when using Parcel.
+
+Parcel Execution Output
+
+* Development and production builds are stored in dist folder.
+* dist and .parcel-cache should not be pushed to Git.
+* These folders can be regenerated anytime.
+
+Browser Compatibility Using browserslist
+
+* browserslist specifies supported browsers in package.json.
+* Parcel uses it to generate compatible builds.
+* Helps support older or specific browser versions.
+
+
