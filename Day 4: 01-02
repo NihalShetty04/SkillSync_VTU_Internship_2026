@@ -1,0 +1,217 @@
+Running Dev and Production Servers
+
+* Parcel commands can be added inside package.json scripts.
+* npm start or npm run start runs development server.
+* npm run build creates production build.
+* Scripts make project execution easier and faster.
+
+---
+
+JSX (JavaScript XML)
+
+* JSX allows writing HTML-like syntax inside JavaScript.
+* Browsers do not understand JSX directly.
+* JSX gets converted into React.createElement.
+* It improves readability and developer experience.
+
+---
+
+Babel
+
+* Babel is a JavaScript compiler.
+* It converts modern JavaScript into browser-compatible code.
+* It also converts JSX into JavaScript objects.
+* Conversion flow: JSX → React.createElement → React Element → HTML render.
+
+---
+
+Functional Components
+
+* Functional components are JavaScript functions returning JSX.
+* Component names must start with uppercase letters.
+* Lowercase names are treated as HTML elements.
+* Components can be reused easily.
+
+---
+
+Component Composition
+
+* Using one component inside another component is called composition.
+* Helps create complex UI from small components.
+* Encourages modular design.
+
+---
+
+JavaScript Expressions in JSX
+
+* Curly braces {} allow JavaScript inside JSX.
+* Can include variables, functions, or calculations.
+* Helps create dynamic UI content.
+
+---
+
+Script Type Attribute
+
+* Defines the type of script content.
+* Common values:
+
+  * text/javascript (default)
+  * module (supports import/export)
+  * text/babel
+  * text/typescript
+* module type is required for ES module usage.
+
+---
+
+Component Syntax Differences
+
+* {Title} refers to a variable or function.
+* {<Title />} renders a component.
+* <Title></Title> and <Title /> are same if no children exist.
+
+---
+
+Config Driven UI
+
+* UI is generated using configuration data like JSON.
+* Makes UI dynamic and customizable.
+* Reduces hardcoding.
+
+---
+
+Reconciliation in React
+
+* React compares old Virtual DOM with new Virtual DOM.
+* Updates only changed parts in Real DOM.
+* Improves performance by minimizing DOM operations.
+
+---
+
+React Fiber
+
+* React Fiber is the new core algorithm of React.
+* It improves rendering speed and responsiveness.
+* Breaks work into smaller units for better scheduling.
+* It is an internal architecture improvement.
+
+---
+
+Keys in React
+
+* Keys uniquely identify list elements.
+* Help React track changes efficiently.
+* Improve rendering performance.
+* Keys should be unique among siblings.
+
+---
+
+Using Index as Keys
+
+* Using index as keys is not recommended when list order changes.
+* Can cause performance issues and incorrect UI behavior.
+* React uses index as default if no key is provided.
+
+---
+
+Exports in JavaScript
+
+* A file can have only one default export.
+* A file can have multiple named exports.
+* Both can exist in the same file.
+
+---
+
+React Hooks
+
+* Hooks are functions provided by React with built-in logic.
+* They allow state and lifecycle features in functional components.
+* Hooks simplify component logic.
+
+---
+
+useState Hook
+
+* useState provides state management in functional components.
+* Returns state variable and update function.
+* Updating state triggers re-render.
+* State persists across renders.
+
+---
+
+Diff Algorithm
+
+* React uses a diff algorithm to compare Virtual DOM versions.
+* Finds minimal changes needed for updates.
+* Reduces expensive DOM operations.
+
+---
+
+Monolithic Architecture
+
+* Entire application is built as one single unit.
+* Components are tightly connected.
+* Hard to scale and maintain.
+* Easier during early development.
+
+---
+
+Microservices Architecture
+
+* Application is divided into independent services.
+* Each service has its own logic and database.
+* Services can be deployed and scaled separately.
+* Improves flexibility and scalability.
+
+---
+
+Fetching Data from API
+
+* Approach 1: Load page → Fetch data → Render UI.
+* Approach 2: Load page → Render skeleton → Fetch data → Update UI.
+* React usually follows the second approach.
+
+---
+
+fetch() Function
+
+* fetch() is used to request data from network.
+* Returns a Promise with response object.
+* Promise fails only on network errors.
+
+---
+
+CORS (Cross-Origin Resource Sharing)
+
+* Security mechanism allowing cross-domain requests.
+* Browsers block cross-origin requests by default.
+* Server must allow access using headers.
+
+---
+
+Shimmer UI
+
+* Shows placeholder layout while data loads.
+* Better user experience than loading spinner.
+* Improves perceived performance.
+
+---
+
+State Updates with Const
+
+* State variables update through React re-rendering.
+* React recreates state with new values internally.
+* Even const variables can change through state setter.
+
+---
+
+useEffect Hook
+
+* Handles side effects like API calls and DOM updates.
+* Runs after component render.
+* Dependency array controls execution:
+
+  * No array → runs every render.
+  * Empty array → runs once.
+  * With values → runs when dependencies change.
+* Replaces lifecycle methods of class components.
+
