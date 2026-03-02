@@ -1,0 +1,95 @@
+Optional Chaining
+
+Optional chaining (?.) is used to safely access nested object properties.
+
+Prevents errors when intermediate values are null or undefined.
+
+Returns undefined instead of throwing an error.
+
+Useful when working with API responses or deeply nested data.
+
+Async and Await
+
+Async functions allow writing asynchronous code in a synchronous style.
+
+An async function always returns a Promise.
+
+Await pauses execution until the Promise resolves.
+
+Await can only be used inside async functions.
+
+Improves readability compared to .then() chaining.
+
+useEffect Dependency Rules
+
+If dependency array is not provided, useEffect runs after every render.
+
+If dependency array is empty ([]), it runs only once after initial render.
+
+If dependencies exist, it runs when any dependency value changes.
+
+State variables should always be created at the top of the component.
+
+Hooks should not be used inside loops, conditions, or nested functions.
+
+Routing in React
+
+Routing allows navigation between different components/pages.
+
+React Router is commonly used for routing.
+
+CreateBrowserRouter is used to define routing configuration.
+
+Routing configuration specifies which component loads for each path.
+
+RouterProvider and Outlet
+
+RouterProvider provides routing configuration to the application.
+
+Outlet is used to render child components inside a parent layout.
+
+Helps implement nested routes.
+
+Enables layout-based routing structure.
+
+Client Side vs Server Side Routing
+Client-side routing:
+
+Navigation happens without page reload.
+
+Everything runs in the browser.
+
+Faster user experience.
+
+Used in Single Page Applications (SPA).
+
+Server-side routing:
+
+Browser requests a new page from server on navigation.
+
+Page reload occurs.
+
+Slower compared to client-side routing.
+
+Dynamic Routing (useParams)
+
+Dynamic routing allows URLs with variable values.
+
+useParams hook extracts route parameters from URL.
+
+Useful for pages like product details or user profiles.
+
+Example: /product/:id.
+
+Adding Images in React
+Ways to add images:
+
+Import images using import statement.
+
+Store images in public folder and reference using path.
+
+Load images from external URLs.
+
+Use images in CSS (background images).
+
+Public folder method is useful for large or dynamic assets.
