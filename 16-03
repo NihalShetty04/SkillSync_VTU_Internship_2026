@@ -1,0 +1,23 @@
+1. MongoDB Basics
+
+Introduction to MongoDB
+
+NoSQL vs SQL Databases
+
+JSON & BSON Data Format
+
+MongoDB Architecture
+
+Installing MongoDB
+
+2. MongoDB Core Concepts
+
+Databases, Collections, and Documents
+
+MongoDB Data Types
+
+ObjectId
+
+Embedded Documents
+
+Relationships in MongoDB
