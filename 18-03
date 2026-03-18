@@ -1,0 +1,23 @@
+Querying Data
+Comparison Operators ($gt, $lt, $eq)
+Logical Operators ($and, $or, $not)
+Element Operators
+Array Queries
+Projection
+
+Indexing
+What is Indexing
+Creating Indexes
+Unique Index
+Compound Index
+Index Performance
+
+Aggregation Framework
+
+Aggregation Pipeline
+
+$match
+$group
+$project
+$sort
+$lookup
