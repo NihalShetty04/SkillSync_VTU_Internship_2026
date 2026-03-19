@@ -1,0 +1,27 @@
+Data Modeling:
+Schema Design
+Embedded vs Referenced Documents
+One-to-One Relationships
+One-to-Many Relationships
+Many-to-Many Relationships
+
+MongoDB with Applications:
+MongoDB with Node.js
+MongoDB with Express.js
+Using Mongoose ODM
+Connecting MongoDB to React apps
+REST API with MongoDB
+
+Advanced MongoDB:
+Transactions
+Replication
+Sharding
+MongoDB Atlas (Cloud Database)
+Security and Authentication
+
+Performance & Optimization:
+
+Query Optimization
+Index Optimization
+Monitoring Database Performance
+Backup and Restore
