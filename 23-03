@@ -1,0 +1,12 @@
+Day 1:
+✔ Created project folder and structure
+✔ Initialized Node.js backend
+✔ Installed dependencies (Express, CORS, dotenv)
+✔ Created basic server
+✔ Server running on localhost:5000
+
+Issues faced:
+-
+
+Next plan:
+Frontend setup
