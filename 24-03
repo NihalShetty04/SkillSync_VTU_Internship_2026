@@ -1,0 +1,12 @@
+Day 2:
+✔ Created React app using Vite
+✔ Installed dependencies (Axios, Router, Chart.js)
+✔ Cleaned default UI
+✔ Created folder structure (components, pages, utils)
+✔ Setup API base config
+
+Issues faced:
+-
+
+Next plan:
+Connect frontend to backend
