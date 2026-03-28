@@ -1,0 +1,11 @@
+Day 4:
+✔ Integrated GitHub API using Octokit
+✔ Created service layer for profile and repo data
+✔ Built API endpoint (/api/profile/:username)
+✔ Displayed GitHub data in frontend
+
+Issues faced:
+-
+
+Next plan:
+Build proper API structure + routes
