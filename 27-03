@@ -1,0 +1,12 @@
+Day 5:
+✔ Refactored backend into controllers and routes
+✔ Created profileController.js
+✔ Created profileRoutes.js
+✔ Connected routes to app.js
+✔ Verified API still working
+
+Issues faced:
+-
+
+Next plan:
+Build frontend search feature
