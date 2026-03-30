@@ -1,0 +1,7 @@
+Created RepoList component
+Displayed top repositories
+Added repo details (stars, forks, language)
+Improved UI structure
+
+Next plan:
+Start scoring system (core logic)
