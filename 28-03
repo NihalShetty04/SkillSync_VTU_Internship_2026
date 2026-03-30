@@ -1,0 +1,7 @@
+ Created SearchBar component
+ Implemented user input handling
+ Connected search to backend API
+ Displayed dynamic GitHub profile data
+
+Next plan:
+Display detailed profile + repo list
