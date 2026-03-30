@@ -1,0 +1,8 @@
+Created scoringService.js
+Implemented Code Quality scoring
+Implemented Diversity scoring
+Integrated scores into API response
+Displayed scores in frontend
+
+Next plan:
+Add Activity + Community scoring
