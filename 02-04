@@ -1,0 +1,7 @@
+Added Radar chart for score visualization
+Added Language bar chart
+Integrated Chart.js into project
+Improved dashboard UI
+
+Next plan:
+Add MongoDB + caching system
