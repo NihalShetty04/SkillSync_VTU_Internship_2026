@@ -1,0 +1,7 @@
+•Connected MongoDB Atlas
+•Created Report schema
+•Saved GitHub report data to database
+•Verified data storage in MongoDB
+
+Next plan:
+Implement caching (avoid repeated API calls)
