@@ -1,0 +1,7 @@
+•Implemented caching using MongoDB
+•Added 24-hour expiry logic
+•Prevented repeated GitHub API calls
+•Improved backend performance
+
+Next plan:
+Create report page with routing
