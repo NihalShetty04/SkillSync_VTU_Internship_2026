@@ -1,0 +1,7 @@
+>Implemented React Router
+>Created Home and Report pages
+>Added dynamic routing (/report/:username)
+>Report loads using URL
+
+Next plan:
+Add copy/share link button
