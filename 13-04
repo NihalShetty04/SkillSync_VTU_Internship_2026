@@ -1,0 +1,4 @@
+React.memo (prevent unnecessary re-renders)
+	•	useMemo (memoizing values)
+	•	useCallback (memoizing functions)
+	•	Code splitting (React.lazy, Suspense)
