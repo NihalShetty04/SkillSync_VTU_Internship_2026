@@ -1,0 +1,6 @@
+What is CI/CD pipeline
+Build → Test → Deploy stages
+Tools:
+Jenkins
+GitHub Actions
+Writing pipelines (YAML)
