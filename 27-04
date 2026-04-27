@@ -1,0 +1,5 @@
+1. Set up the backend project and initialized the server.
+2. Installed required dependencies and configured the environment.
+3. Designed a basic folder structure for scalability.
+4. Connected the application to the database successfully.
+5. Created and tested initial API routes using Postman.
