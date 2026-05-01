@@ -1,0 +1,7 @@
+Designed Appointment schema (patient, doctor, date, time, status)
+Built APIs for:
+Booking appointments
+Viewing appointments (patient & doctor views)
+Implemented slot-based scheduling logic
+Prevented double booking of same time slot
+Linked appointments with users and doctors
