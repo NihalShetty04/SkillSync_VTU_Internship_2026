@@ -1,0 +1,8 @@
+Developed doctor availability management system
+Allowed doctors to:
+Set available days and time slots
+Update availability dynamically
+Integrated appointment booking with availability
+Added basic notification logic (optional placeholder)
+Tested all APIs using Postman
+Fixed bugs and improved API responses
