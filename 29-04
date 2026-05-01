@@ -1,0 +1,7 @@
+Implemented role-based access control (RBAC) for patient, doctor, and admin
+Created middleware to verify user roles
+Built Doctor model with specialization, availability, and profile details
+Developed API for:
+Adding doctor details (admin/doctor)
+Fetching doctor list
+Added filtering by specialization
