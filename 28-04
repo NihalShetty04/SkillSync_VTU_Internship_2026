@@ -1,0 +1,6 @@
+Initialized backend project using Node.js and Express
+Structured folders (routes, controllers, models, middleware)
+Connected backend to MongoDB database
+Designed User schema (patients & doctors with roles)
+Implemented user registration API
+Implemented login API with JWT authentication
