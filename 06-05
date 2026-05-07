@@ -1,0 +1,10 @@
+Work Done:
+
+Developed dashboards for:
+Patient (view appointments)
+Doctor (manage bookings)
+Admin (optional overview)
+Improved UI using Bootstrap / Tailwind
+Added loading states and error handling
+Integrated all modules with backend APIs
+Performed testing and bug fixes
