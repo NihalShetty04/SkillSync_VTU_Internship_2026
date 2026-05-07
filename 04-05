@@ -1,0 +1,10 @@
+Work Done:
+
+Developed Doctor Listing page
+Displayed doctor details:
+Name
+Specialization
+Availability
+Implemented search and filter functionality
+Created reusable Doctor Card component
+Connected API to fetch doctors dynamically
