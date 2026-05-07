@@ -1,0 +1,7 @@
+Work Done:
+
+Built Login and Registration forms
+Implemented form validation (email, password)
+Connected frontend with backend authentication APIs
+Stored JWT token securely (localStorage/sessionStorage)
+Added role-based navigation (patient/doctor/admin)
